@@ -40,9 +40,12 @@ for(let p of perso1)
     console.log(p)
 }
 let min=0
+let x=0
+let nam=""
 for (p of perso1)
-{
-if(perso1[name]>min)
+{x=p.marks
+
+if(p>min)
 {
     min=perso1[name]
 
